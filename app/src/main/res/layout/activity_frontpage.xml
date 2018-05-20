@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/metrowallpaper"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="main.railways.Frontpage">
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/jaipurlogo"
+        android:id="@+id/imageView" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="#ffffff"
+        android:text="ROUTE"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="68dp"
+        android:id="@+id/button26" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="STATION"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="#ffffff"
+        android:id="@+id/button17"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="SECURITY"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/button27"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="OTHER"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/button28"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="FARE"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/button29"
+        android:layout_above="@+id/button30"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="FEEDBACK"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_red_dark"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/button30"
+        android:layout_below="@+id/button28"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome to jaipur metro"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_red_dark"
+        android:id="@+id/button4"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button27"
+        android:layout_alignEnd="@+id/button27" />
+
+</RelativeLayout>
